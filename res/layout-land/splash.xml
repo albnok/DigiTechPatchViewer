@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+    android:orientation="vertical">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0dip" android:layout_weight="1" android:layout_margin="@dimen/howtouselandscape_margin">
+<TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/howtouse"
+    android:textSize="@dimen/howtouselandscape_textSize" />
+</ScrollView>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+<Button android:layout_width="0dip" android:layout_weight="2" android:layout_height="fill_parent" 
+    android:textSize="@dimen/howtouselandscape_textSize" android:text="@string/email" android:id="@+id/ButtonEmail" />
+<Button android:layout_width="0dip" android:layout_weight="2" android:layout_height="fill_parent" 
+    android:textSize="@dimen/howtouselandscape_textSize" android:text="@string/website" android:id="@+id/ButtonWebsite" />
+<Button android:layout_width="0dip" android:layout_weight="4" android:layout_height="fill_parent" android:textSize="@dimen/howtouselandscape_textSize"
+    android:text="@string/websitelaunch" android:id="@+id/ButtonWebsiteLaunch" />
+</LinearLayout>
+</LinearLayout>

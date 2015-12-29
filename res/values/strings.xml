@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DigiTech Patch Viewer</string>
+    <string name="howtouse">Surf to any DigiTech RP155, RP250 or RP255 patch file and click on it to launch it in this viewer. (If you cannot open patch files from your stock browser, use Firefox for Android.)\n\nAlternatively, use a file browser app.\n\nRP255 patch files are supported, with RP155 and RP250 patch files as beta, but send me an email if you\'d like to help me support your DigiTech multi-effects pedal! (Some manual data entry required.)\n\nIf you have a RP155 or RP250 patch file that does not open properly, with missing values, email me and I\'ll update the app.\n\nThe author has no affiliation with DigiTech or Harman. This app is possible because the DigiTech RP-series patch files are in a human-readable XML format.\n\nDigiTech Patch Viewer v1.1\n&#169; 2012 Albert Ng</string>
+	<string name="optionaloff">Show Extras</string>
+	<string name="optionalon">Hide Extras</string>
+	<string name="about">About...</string>
+	<string name="loading">Loading...</string>
+	<string name="email">Email the author</string>
+	<string name="emailaddress">albnok@hotmail.com</string>
+	<string name="website">Website</string>
+	<string name="websiteurl">http://www.glaringnotebook.com/digitechpatchviewer.asp</string>
+	<string name="websitelaunch">Launch browser to download tones</string>
+	<string name="websiterp155url">http://www.digitech.com/en-US/products/rp155</string>
+	<string name="websiterp255url">http://www.digitech.com/en-US/products/rp255</string>
+	<string name="websiterp255url2">http://www.digitech.com/soundcomm/guitar_list_patches.asp?productid=255</string>
+	<string name="websiterp155title">RP155</string>
+	<string name="websiterp255title">RP255</string>
+	<string name="websiterp255title2">RP255 (alternate site)</string>
+</resources>

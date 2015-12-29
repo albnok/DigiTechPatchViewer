@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pedals>
+<pedal name="PICKUP" type="64" enabled="65">
+	<knob name="USB Playback Mix" id="-2" />
+	<knob name="USB Record Level" id="-2" />
+	<knob name="Preset Level" id="2626" />
+</pedal>
+<pedal name="WAH" type="128" enabled="129">
+	<knob name="Wah Minimum" id="8195" pos="20" />
+	<knob name="Wah Maximum" id="8196" pos="20" />
+	<knob name="Wah Level" id="133" />
+	<knob name="Wah Position" id="132" opt="y" />
+</pedal>
+<pedal name="COMPRESSOR" type="207" enabled="193">
+	<knob name="Sustain" id="208" />
+	<knob name="Tone" id="209" />
+	<knob name="Compressor Level" id="210" />
+	<knob name="Compressor Attack" id="211" condition="196" slot="1" />
+	<knob name="Compressor Attack" id="211" condition="195" slot="3" opt="y" />
+</pedal>
+<pedal name="DISTORTION" type="2432" enabled="2433">
+	<knob name="Gain" id="2434" />
+	<knob name="Tone" id="2435" />
+	<knob name="Distortion Level" id="2436" />
+	<knob name="Overdrive" id="2473" condition="1292" slot="0" />
+	<knob name="Tone" id="2474" condition="1292" slot="1" />
+	<knob name="Distortion Level" id="2475" condition="1292" slot="2" />
+	<knob name="Drive" id="2448" condition="1285" slot="0" />
+	<knob name="Distortion Level" id="2449" condition="1285" slot="2" />
+	<knob name="Gain" id="2443" condition="1283" slot="0" />
+	<knob name="Distortion Level" id="2444" condition="1283" slot="2" />
+	<knob name="Distortion" id="2437" condition="1281" slot="0" />
+	<knob name="Filter" id="2438" condition="1281" slot="1" />
+	<knob name="Volume" id="2439" condition="1281" slot="2" />
+	<knob name="Distortion" id="2468" condition="1291" slot="0" />
+	<knob name="Output" id="2469" condition="1291" slot="2" />
+	<knob name="Distortion" id="2440" condition="1282" slot="0" />
+	<knob name="Tone" id="2441" condition="1282" slot="1" />
+	<knob name="Level" id="2442" condition="1282" slot="2" />
+	<knob name="Gain" id="2454" condition="1287" slot="0" />
+	<knob name="Face" id="2456" condition="1287" slot="1" />
+	<knob name="Loud" id="2457" condition="1287" slot="2" />
+	<knob name="Butt" id="2455" condition="1287" slot="3" opt="y" />
+	<knob name="Gain" id="2460" condition="1289" slot="0" />
+	<knob name="Mid Level" id="2462" condition="1289" slot="1" />
+	<knob name="Level" id="2465" condition="1289" slot="2" />
+	<knob name="Mid Freq" id="2461" condition="1289" slot="3" opt="y" />
+	<knob name="Dist Low" id="2463" condition="1289" slot="4" opt="y" />
+	<knob name="Dist High" id="2464" condition="1289" slot="5" opt="y" />
+	<knob name="Dist Low" id="2477" condition="1294" slot="0" />
+	<knob name="Dist Mid" id="2476" condition="1294" slot="1" />
+	<knob name="Level" id="2478" condition="1294" slot="2" />
+	<knob name="Dist High" id="2479" condition="1294" slot="3" opt="y" />
+	<knob name="Gunk" id="2480" condition="1293" slot="0" />
+	<knob name="Smear" id="2471" condition="1293" slot="1" />
+	<knob name="Suck" id="2470" condition="1293" slot="2" />
+	<knob name="Heave" id="2472" condition="1293" slot="3" opt="y" />
+	<knob name="Fuzz" id="2458" condition="1288" slot="0" />
+	<knob name="" id="-1" condition="1288" slot="1" />
+	<knob name="Volume" id="2459" condition="1288" slot="2" />
+	<knob name="Sustain" id="2445" condition="1284" slot="0" />
+	<knob name="Tone" id="2446" condition="1284" slot="1" />
+	<knob name="Volume" id="2447" condition="1284" slot="2" />
+</pedal>
+<pedal name="AMPLIFIER" type="2496" enabled="265">
+	<knob name="Cabinet" id="2560" />
+	<knob name="Amp Gain" id="2497" />
+	<knob name="Amp Level" id="2498" />
+</pedal>
+<pedal name="EQUALIZER" type="3202" enabled="3212">
+	<knob name="Bass" id="3203" />
+	<knob name="Midrange" id="3204" />
+	<knob name="Treble" id="3205" />
+	<knob name="Mid Freq" id="3206" opt="y" />
+	<knob name="Treb Freq" id="3211" opt="y" />
+</pedal>
+<pedal name="NOISE GATE" type="704" enabled="705">
+	<knob name="Threshold" id="710" />
+	<knob name="Attack" id="712" />
+	<knob name="Release" id="713" />
+	<knob name="Pluck Sens" id="711" condition="769" slot="0" />
+	<knob name="Gate Attenuation" id="714" opt="y" />
+</pedal>
+<pedal name="CHORUS/FX" type="768" enabled="769">
+	<knob name="Speed" id="837" />
+	<knob name="Depth" id="838" />
+	<knob name="Regen/Level" id="836" />
+	<knob name="Mod Pre/Post" id="770" opt="y" />
+	<knob name="Regen/Level" id="-1" condition="-889" slot="2" />
+	<knob name="Chorus Waveform" id="840" condition="889" slot="4" opt="y" />
+	<knob name="Chorus Waveform" id="840" condition="890" slot="4" opt="y" />
+	<knob name="Flanger Speed" id="902" condition="893" slot="0" />
+	<knob name="Flanger Depth" id="903" condition="893" slot="1" />
+	<knob name="Flanger Regen" id="904" condition="893" slot="2" />
+	<knob name="Flanger Level" id="901" condition="893" slot="4" opt="y" />
+	<knob name="Flanger Waveform" id="905" condition="893" slot="5" opt="y" />
+	<knob name="Flanger Speed" id="902" condition="895" slot="0" />
+	<knob name="Flanger Width" id="914" condition="895" slot="1" />
+	<knob name="Flanger Regen" id="904" condition="895" slot="2" />
+	<knob name="Flanger Manual" id="917" condition="895" slot="4" opt="y" />
+	<knob name="Speed" id="962" condition="897" slot="0" />
+	<knob name="Depth" id="963" condition="897" slot="1" />
+	<knob name="Regen/Level" id="966" condition="897" slot="2" />
+	<knob name="Vibrato Speed" id="1284" condition="864" slot="0" />
+	<knob name="Vibrato Depth" id="1285" condition="864" slot="1" />
+	<knob name="Rotary Speed" id="1346" condition="865" slot="0" />
+	<knob name="Rotary Intensity" id="1348" condition="865" slot="1" />
+	<knob name="Rotary Doppler" id="1350" condition="865" slot="2" />
+	<knob name="Rotary Crossover" id="1351" condition="865" slot="4" opt="y" />
+	<knob name="Speed" id="1314" condition="911" slot="0" />
+	<knob name="Depth" id="1315" condition="911" slot="1" />
+	<knob name="VibroPan" id="1316" condition="911" slot="2" />
+	<knob name="Waveform" id="1317" condition="911" slot="4" opt="y" />
+	<knob name="Speed" id="1156" condition="862" slot="0" />
+	<knob name="Depth" id="1155" condition="862" slot="1" />
+	<knob name="Waveform" id="1157" condition="862" slot="2" />
+	<knob name="Speed" id="1220" condition="863" slot="0" />
+	<knob name="Depth" id="1219" condition="863" slot="1" />
+	<knob name="Waveform" id="1221" condition="863" slot="2" />
+	<knob name="Sensitivity" id="1606" condition="906" slot="0" />
+	<knob name="Range" id="1605" condition="906" slot="1" />
+	<knob name="" id="-1" condition="906" slot="2" />
+	<knob name="Speed" id="1478" condition="907" slot="0" />
+	<knob name="Intensity" id="1482" condition="907" slot="1" />
+	<knob name="Range" id="1483" condition="907" slot="2" />
+	<knob name="Pedal" id="1410" condition="908" slot="0" />
+	<knob name="Intensity" id="1417" condition="908" slot="1" />
+	<knob name="Range" id="1418" condition="908" slot="2" />
+	<knob name="Speed" id="3010" condition="909" slot="0" />
+	<knob name="Intensity" id="3011" condition="909" slot="1" />
+	<knob name="" id="-1" condition="909" slot="2" />
+	<knob name="Amount" id="1797" condition="1344" slot="0" />
+	<knob name="Pedal" id="1795" condition="1344" slot="1" />
+	<knob name="Mix" id="1796" condition="1344" slot="2" />
+	<knob name="Whammy Mod Pre/Post" id="1798" condition="1344" slot="3" opt="y" />
+	<knob name="Amount" id="1730" condition="1347" slot="0" />
+	<knob name="" id="-1" condition="1347" slot="1" />
+	<knob name="Mix" id="1745" condition="1347" slot="2" />
+	<knob name="Amount" id="1668" condition="1346" slot="0" />
+	<knob name="" id="-1" condition="1346" slot="1" />
+	<knob name="Level" id="1667" condition="1346" slot="2" />
+	<knob name="Amount" id="2754" condition="1345" slot="0" />
+	<knob name="Key" id="2756" condition="1345" slot="1" />
+	<knob name="Scale" id="2755" condition="1345" slot="2" />
+	<knob name="Harmony Level" id="2757" condition="1345" slot="4" opt="y" />
+</pedal>
+<pedal name="DELAY" type="1856" enabled="1857">
+	<knob name="Time" id="1888" />
+	<knob name="Repeats" id="1863" />
+	<knob name="Delay Level" id="1860" />
+	<knob name="Duck Threshold" id="1889" condition="1048" slot="3" opt="y" />
+	<knob name="Duck Level" id="1890" condition="1048" slot="4" opt="y" />
+</pedal>
+<pedal name="REVERB" type="1920" enabled="1921">
+	<knob name="Decay" id="1927" />
+	<knob name="Liveliness" id="1933" />
+	<knob name="Reverb Level" id="1925" />
+	<knob name="Reverb Predelay" id="1922" opt="y" />
+</pedal>
+<pedal name="EXPRESSION" type="-1" enabled="-1" pos="19">
+	<knob name="Parameter Link" id="8194" pos="19" />
+	<knob name="Heel Value" id="8195" pos="19" />
+	<knob name="Toe Value" id="8196" pos="19" />
+</pedal>
+<pedal name="TONE LIBRARY" type="8704" enabled="-1">
+	<knob name="Effects Library" id="8705" />
+	<knob name="Effects Level" id="8706" />
+	<knob name="Master Level" id="-2" />
+	<knob name="FxLibLvlMax1" id="8708" opt="y" />
+	<knob name="FxLibLvlMax2" id="8710" opt="y" />
+	<knob name="FxLibLvlMax3" id="8712" opt="y" />
+</pedal>
+<pedal name="V-SWITCH" type="8393" enabled="8449" opt="y">
+	<knob name="V-Switch Assign" id="8384" opt="y" />
+	<knob name="V-Switch Min" id="8385" opt="y" />
+	<knob name="V-Switch Max" id="8386" opt="y" />
+</pedal>
+</pedals>

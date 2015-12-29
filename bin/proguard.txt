@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:17
+-keep class com.glaringnotebook.digitechpatchviewer.PresetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:11
+-keep class com.glaringnotebook.digitechpatchviewer.SplashActivity { <init>(...); }
+

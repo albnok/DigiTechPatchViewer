@@ -1,0 +1,116 @@
+com.glaringnotebook.digitechpatchviewer.Chip -> com.glaringnotebook.digitechpatchviewer.a:
+    boolean getOptional(android.content.Context) -> a
+com.glaringnotebook.digitechpatchviewer.Knob -> com.glaringnotebook.digitechpatchviewer.b:
+    java.lang.String name -> a
+    java.lang.Integer id -> b
+    java.lang.Integer condition -> c
+    java.lang.Integer slot -> d
+    java.lang.Integer position -> e
+    boolean optional -> f
+    java.lang.String toString() -> toString
+com.glaringnotebook.digitechpatchviewer.Param -> com.glaringnotebook.digitechpatchviewer.g:
+    int id -> a
+    int position -> b
+    java.lang.String value -> c
+    java.lang.String name -> d
+    java.lang.String text -> e
+    java.lang.String idposition -> f
+    java.lang.String toString() -> toString
+com.glaringnotebook.digitechpatchviewer.Pedal -> com.glaringnotebook.digitechpatchviewer.f:
+    java.lang.String name -> a
+    java.lang.Integer type -> b
+    java.lang.Integer enabled -> c
+    java.lang.Integer position -> d
+    java.lang.Integer cachedSize -> g
+    boolean optional -> e
+    java.util.List knobs -> f
+    java.util.List cachedKnobs -> h
+    java.lang.String toString() -> toString
+    java.lang.Integer getSize(java.lang.Integer) -> a
+    com.glaringnotebook.digitechpatchviewer.Knob getPosition(int,java.lang.Integer) -> a
+com.glaringnotebook.digitechpatchviewer.PresetActivity -> com.glaringnotebook.digitechpatchviewer.PresetActivity:
+    boolean optional -> a
+    boolean isHoneycomb -> q
+    com.glaringnotebook.digitechpatchviewer.PresetActivity$PedalAdapter pedalAdapter -> b
+    int colorSetting -> c
+    int colorSettingOpt -> d
+    int colorValue -> e
+    int colorValueOpt -> f
+    int colorSettingBackground -> g
+    int colorSettingBackgroundOpt -> h
+    int colorPedalSetOpt -> r
+    int colorPedalSet -> s
+    int colorPedal -> i
+    int colorPedalOpt -> j
+    java.util.List listPedals -> k
+    java.util.List listPedalsOptional -> l
+    java.util.HashMap hashmapParams -> m
+    java.util.HashMap hashmapParamsWithPosition -> n
+    com.glaringnotebook.digitechpatchviewer.Param blankParam -> t
+    com.glaringnotebook.digitechpatchviewer.Param unsettableParam -> u
+    boolean loadedEverything -> o
+    java.lang.String savedTitle -> p
+    java.lang.String tonePath -> v
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onPrepareOptionsMenu(android.view.Menu) -> onPrepareOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onDestroy() -> onDestroy
+    com.glaringnotebook.digitechpatchviewer.Param access$0(com.glaringnotebook.digitechpatchviewer.Knob) -> a
+com.glaringnotebook.digitechpatchviewer.PresetActivity$LoadTask -> com.glaringnotebook.digitechpatchviewer.d:
+    java.lang.String toneLayout -> a
+    java.lang.String tonePath -> b
+    com.glaringnotebook.digitechpatchviewer.PresetActivity this$0 -> c
+    void onPreExecute() -> onPreExecute
+    java.lang.Integer doInBackground(java.lang.String[]) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.glaringnotebook.digitechpatchviewer.PresetActivity$PedalAdapter -> com.glaringnotebook.digitechpatchviewer.e:
+    android.view.LayoutInflater mInflater -> a
+    com.glaringnotebook.digitechpatchviewer.ViewHolder holder -> b
+    java.lang.Integer condition -> c
+    com.glaringnotebook.digitechpatchviewer.Knob enabledKnob -> d
+    com.glaringnotebook.digitechpatchviewer.Knob typeKnob -> e
+    com.glaringnotebook.digitechpatchviewer.Knob currentKnob -> f
+    com.glaringnotebook.digitechpatchviewer.Param foundParam -> g
+    com.glaringnotebook.digitechpatchviewer.Pedal pedal -> h
+    int knobCount -> i
+    java.util.List mListPedals -> j
+    void setList(java.util.List) -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.glaringnotebook.digitechpatchviewer.SplashActivity -> com.glaringnotebook.digitechpatchviewer.SplashActivity:
+    boolean canGoUp -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.glaringnotebook.digitechpatchviewer.SplashActivity$1 -> com.glaringnotebook.digitechpatchviewer.j:
+    com.glaringnotebook.digitechpatchviewer.SplashActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.glaringnotebook.digitechpatchviewer.SplashActivity$2 -> com.glaringnotebook.digitechpatchviewer.h:
+    com.glaringnotebook.digitechpatchviewer.SplashActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.glaringnotebook.digitechpatchviewer.SplashActivity$3 -> com.glaringnotebook.digitechpatchviewer.i:
+    com.glaringnotebook.digitechpatchviewer.SplashActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.glaringnotebook.digitechpatchviewer.ViewHolder -> com.glaringnotebook.digitechpatchviewer.c:
+    android.widget.TextView text -> a
+    android.widget.TextView pedaltype -> b
+    android.widget.TextView setting1 -> c
+    android.widget.TextView setting2 -> d
+    android.widget.TextView setting3 -> e
+    android.widget.TextView setting4 -> f
+    android.widget.TextView setting5 -> g
+    android.widget.TextView setting6 -> h
+    android.widget.TextView value1 -> i
+    android.widget.TextView value2 -> j
+    android.widget.TextView value3 -> k
+    android.widget.TextView value4 -> l
+    android.widget.TextView value5 -> m
+    android.widget.TextView value6 -> n
+    android.widget.ImageView light -> o
+    android.widget.LinearLayout settings -> p
+    android.widget.LinearLayout values -> q

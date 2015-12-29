@@ -1,0 +1,2 @@
+com.glaringnotebook.digitechpatchviewer.PresetActivity
+com.glaringnotebook.digitechpatchviewer.SplashActivity

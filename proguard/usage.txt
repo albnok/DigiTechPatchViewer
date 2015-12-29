@@ -1,0 +1,13 @@
+com.glaringnotebook.digitechpatchviewer.Param:
+    static final java.lang.String UNSETTABLE
+    static final java.lang.String BLANK
+com.glaringnotebook.digitechpatchviewer.R
+com.glaringnotebook.digitechpatchviewer.R$attr
+com.glaringnotebook.digitechpatchviewer.R$color
+com.glaringnotebook.digitechpatchviewer.R$dimen
+com.glaringnotebook.digitechpatchviewer.R$drawable
+com.glaringnotebook.digitechpatchviewer.R$id
+com.glaringnotebook.digitechpatchviewer.R$layout
+com.glaringnotebook.digitechpatchviewer.R$menu
+com.glaringnotebook.digitechpatchviewer.R$string
+com.glaringnotebook.digitechpatchviewer.R$style

@@ -1,0 +1,12 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<color name="setting">#FFBBBBBB</color>
+<color name="settingOpt">#80BBBBBB</color>
+<color name="settingBackground">#FF16385A</color>
+<color name="settingBackgroundOpt">#FF002244</color>
+<color name="value">#FFFF0000</color>
+<color name="valueOpt">#80FF0000</color>
+<color name="pedalset">#FFCCDDEE</color>
+<color name="pedalsetOpt">#FF8899AA</color>
+<color name="pedal">#FF000000</color>
+<color name="pedalOpt">#80000000</color>
+</resources>

@@ -1,0 +1,96 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<style name="pedalset">
+	<item name="android:layout_width">fill_parent</item>    
+	<item name="android:layout_height">fill_parent</item>
+	<item name="android:background">@color/pedalset</item>    
+</style>
+<style name="pedal">
+    <item name="android:layout_width">@dimen/pedal_width</item>
+    <item name="android:layout_height">@dimen/pedal_height</item>
+	<item name="android:paddingLeft">@dimen/spacing_xxsmall</item>
+    <item name="android:textColor">@color/value</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">@dimen/pedal_textSize</item>
+</style>      
+<style name="pedal.name">
+    <item name="android:textColor">@color/pedal</item>
+</style>
+<style name="pedal.landscape">
+    <item name="android:layout_height">@dimen/pedal_landscape_height</item>
+    <item name="android:textSize">@dimen/pedal_landscape_textSize</item>
+</style>
+<style name="pedal.name.landscape">
+    <item name="android:textSize">@dimen/pedal_landscape_textSize</item>
+</style>
+<style name="pedalswitch">
+    <item name="android:layout_toRightOf">@+id/TextViewPedal</item>
+    <item name="android:layout_width">@dimen/pedalswitch_width</item>
+    <item name="android:layout_height">@dimen/pedalswitch_width</item>
+    <item name="android:layout_marginRight">@dimen/pedalswitch_marginRight</item>
+    <item name="android:background">@color/value</item>
+	<item name="android:layout_marginTop">@dimen/spacing_xsmall</item>
+</style>
+<style name="pedalswitch.portrait">
+    <item name="android:layout_alignParentRight">true</item>
+    <item name="android:layout_toRightOf">@+id/nothing</item>
+	<item name="android:layout_marginTop">@dimen/pedalswitch_portrait_marginTop</item>
+    <!-- <item name="android:layout_toRightOf">@+id/TextViewPedalType</item> -->
+</style>
+<style name="settings">
+    <item name="android:ellipsize">marquee</item>
+    <item name="android:maxLines">1</item>
+    <item name="android:lines">1</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:layout_width">0dip</item>
+    <item name="android:layout_height">wrap_content</item> 
+    <item name="android:layout_weight">1</item>
+    <item name="android:orientation">vertical</item>
+</style>
+<style name="settings.text">
+    <item name="android:gravity">center_horizontal</item>
+	<item name="android:textColor">@color/setting</item>
+	<item name="android:textSize">@dimen/setting_textSize</item> 
+	<item name="android:textStyle">bold</item>  
+</style>
+<style name="settings.text.value">
+	<item name="android:textSize">@dimen/value_textSize</item> 
+    <item name="android:textColor">@color/value</item>
+</style>
+<style name="settings.text.landscape">
+    <item name="android:textSize">@dimen/setting_landscape_textSize</item>
+</style>
+<style name="settings.text.value.landscape">
+    <item name="android:textSize">@dimen/value_landscape_textSize</item>
+</style>
+<style name="setting">
+     <item name="android:layout_height">wrap_content</item>
+     <item name="android:layout_width">wrap_content</item>
+     <item name="android:orientation">horizontal</item>
+     <item name="android:background">@color/settingBackground</item>
+</style>
+<style name="setting.portrait">
+     <item name="android:layout_width">fill_parent</item>
+</style>
+<style name="setting.landscape">
+     <item name="android:layout_toRightOf">@+id/ImageViewPedalSwitch</item>
+     <item name="android:layout_alignParentRight">true</item>
+</style>
+<style name="setting.portrait.opt">
+    <item name="android:background">@color/settingBackgroundOpt</item>
+</style>
+<style name="setting.landscape.opt">
+    <item name="android:background">@color/settingBackgroundOpt</item>
+</style>
+<style name="settings.text.opt">
+    <item name="android:textColor">@color/settingOpt</item>
+</style>
+<style name="settings.text.value.opt">
+    <item name="android:textColor">@color/valueOpt</item>
+</style>
+<style name="settings.text.opt.landscape">
+    <item name="android:textSize">@dimen/setting_landscape_textSize</item>
+</style>
+<style name="settings.text.value.opt.landscape">
+    <item name="android:textSize">@dimen/value_landscape_textSize</item>
+</style>
+</resources>

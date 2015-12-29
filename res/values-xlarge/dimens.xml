@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  literal 1.5 of everything from layout/dimens.xml -->
+	<dimen name="pedal_width">300dip</dimen>
+	<dimen name="pedal_height">31dip</dimen>
+	<dimen name="pedal_landscape_height">25dip</dimen>
+	<dimen name="spacing_xxsmall">3dip</dimen>
+	<dimen name="spacing_xsmall">6dip</dimen>
+	<dimen name="spacing_small">13dip</dimen>
+	<dimen name="pedal_textSize">20dip</dimen>
+	<dimen name="setting_textSize">20dip</dimen>
+	<dimen name="value_textSize">24dip</dimen>
+	<dimen name="pedal_landscape_textSize">17dip</dimen>
+	<dimen name="setting_landscape_textSize">19dip</dimen>
+	<dimen name="value_landscape_textSize">21dip</dimen>
+	<dimen name="pedalswitch_width">12dip</dimen>
+	<dimen name="pedalswitch_marginRight">8dip</dimen>
+	<dimen name="pedalswitch_portrait_marginTop">10dip</dimen>
+	<dimen name="howtouse_margin">60dip</dimen>
+	<dimen name="howtouse_textSize">38dip</dimen>
+	<dimen name="howtouselandscape_margin">50dip</dimen>
+	<dimen name="howtouselandscape_textSize">32dip</dimen>
+</resources>
+
